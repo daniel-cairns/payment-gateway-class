@@ -18,6 +18,9 @@
 		echo '<li>Quantity: '.$row['quantity'].'</li>';
 		echo '</ul>';
 
+		// Include the "add item to cart" form
+		include 'app/templates/add-to-cart-form.php';
+
 	}
 
 ?>
