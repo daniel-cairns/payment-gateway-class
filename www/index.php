@@ -42,10 +42,10 @@ if( isset($_POST['add-to-cart'])) {
 	// Add the item to the cart omly if the product was not found
 	if( !$found){
 		$_SESSION['cart'][] = 	[
-									'id'=>$productID,
-									'quantity'=>$_POST['quantity'],
-									'name'=>$result['name'],
-									'price'=>$result['price']
+									'id'		=>$productID,
+									'quantity'	=>$_POST['quantity'],
+									'name'		=>$result['name'],
+									'price'		=>$result['price']
 								];
 	}
 

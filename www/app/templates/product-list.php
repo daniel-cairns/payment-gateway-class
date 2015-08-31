@@ -1,4 +1,5 @@
 <h1>All Products</h1>
+<a href="checkout.php">Checkout</a>
 
 <?php
 	
